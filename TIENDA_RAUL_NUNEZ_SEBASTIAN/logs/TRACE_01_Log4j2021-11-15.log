@@ -1,0 +1,203 @@
+[2021-11-15 09:23:35] [ INFO ] [UsuarioService:26] Usuario con el email especificado existe
+[2021-11-15 09:23:42] [ INFO ] [UsuarioService:66] Usuario Usuario [id=13, idRol=null, email=raul@tienda.es, clave=MTIzNA==, nombre=Raull, apellido1=,, apellido2=null, direccion=, provincia=, localidad=, telefono=, dni=] editado correctamente
+[2021-11-15 09:23:48] [ INFO ] [UsuarioService:66] Usuario Usuario [id=13, idRol=null, email=raul@tienda.es, clave=MTIzNA==, nombre=Raul, apellido1=,, apellido2=null, direccion=, provincia=, localidad=, telefono=, dni=] editado correctamente
+[2021-11-15 09:23:53] [ INFO ] [UsuarioService:66] Usuario Usuario [id=13, idRol=null, email=raul@tienda.es, clave=MTIzNA==, nombre=Raul, apellido1=klkl,, apellido2=null, direccion=, provincia=, localidad=, telefono=, dni=] editado correctamente
+[2021-11-15 09:24:22] [ INFO ] [UsuarioService:66] Usuario Usuario [id=13, idRol=null, email=raul@tienda.es, clave=MTIzNA==, nombre=Raul, apellido1=,kjkj, apellido2=null, direccion=, provincia=, localidad=, telefono=, dni=] editado correctamente
+[2021-11-15 09:24:37] [ INFO ] [UsuarioService:66] Usuario Usuario [id=13, idRol=null, email=raul@tienda.es, clave=MTIzNA==, nombre=Raul, apellido1=hola,, apellido2=null, direccion=, provincia=, localidad=, telefono=, dni=] editado correctamente
+[2021-11-15 09:26:39] [ INFO ] [UsuarioService:26] Usuario con el email especificado existe
+[2021-11-15 09:26:50] [ INFO ] [UsuarioService:66] Usuario Usuario [id=13, idRol=null, email=raul@tienda.es, clave=MTIzNA==, nombre=Raul, apellido1=hola,adios, apellido2=null, direccion=, provincia=, localidad=, telefono=, dni=] editado correctamente
+[2021-11-15 09:27:45] [ INFO ] [UsuarioService:66] Usuario Usuario [id=13, idRol=null, email=raul@tienda.es, clave=MTIzNA==, nombre=Raul, apellido1=Núñez, apellido2=Sebastián, direccion=, provincia=, localidad=, telefono=, dni=] editado correctamente
+[2021-11-15 09:29:36] [ INFO ] [UsuarioService:66] Usuario Usuario [id=13, idRol=null, email=raul@tienda.es, clave=MTIzNA==, nombre=Raul, apellido1=Núñez, apellido2=Sebastián, direccion=Calle mis casa, provincia=Zamora, localidad=Benavente, telefono=666666666, dni=45454545M] editado correctamente
+[2021-11-15 09:31:15] [ INFO ] [UsuarioService:26] Usuario con el email especificado existe
+[2021-11-15 09:46:52] [ INFO ] [UsuarioService:26] Usuario con el email especificado existe
+[2021-11-15 10:07:52] [ INFO ] [UsuarioService:26] Usuario con el email especificado existe
+[2021-11-15 10:11:04] [ INFO ] [UsuarioService:26] Usuario con el email especificado existe
+[2021-11-15 10:13:05] [ INFO ] [UsuarioService:26] Usuario con el email especificado existe
+[2021-11-15 10:20:27] [ INFO ] [UsuarioService:26] Usuario con el email especificado existe
+[2021-11-15 10:23:23] [ INFO ] [UsuarioService:26] Usuario con el email especificado existe
+[2021-11-15 11:10:13] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 11:15:38] [ INFO ] [UsuarioService:26] Usuario con el email especificado existe
+[2021-11-15 11:49:55] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 11:56:04] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 12:06:16] [ INFO ] [UsuarioService:26] Usuario con el email especificado existe
+[2021-11-15 12:06:20] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 12:11:41] [ INFO ] [UsuarioService:26] Usuario con el email especificado existe
+[2021-11-15 12:11:45] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 12:17:15] [ INFO ] [UsuarioService:26] Usuario con el email especificado existe
+[2021-11-15 12:17:21] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 12:19:26] [ INFO ] [UsuarioService:26] Usuario con el email especificado existe
+[2021-11-15 12:34:24] [ INFO ] [UsuarioService:26] Usuario con el email especificado existe
+[2021-11-15 13:20:12] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 13:20:13] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 13:20:14] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 13:20:16] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 13:20:24] [ INFO ] [UsuarioService:26] Usuario con el email especificado existe
+[2021-11-15 13:31:39] [ INFO ] [UsuarioService:26] Usuario con el email especificado existe
+[2021-11-15 13:31:50] [ INFO ] [UsuarioService:26] Usuario con el email especificado existe
+[2021-11-15 13:33:34] [ INFO ] [UsuarioService:26] Usuario con el email especificado existe
+[2021-11-15 13:34:58] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 13:36:14] [ INFO ] [UsuarioService:26] Usuario con el email especificado existe
+[2021-11-15 13:36:16] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 13:36:51] [ INFO ] [UsuarioService:26] Usuario con el email especificado existe
+[2021-11-15 13:36:59] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 13:39:35] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 13:39:50] [ INFO ] [UsuarioService:26] Usuario con el email especificado existe
+[2021-11-15 13:40:35] [ INFO ] [UsuarioService:26] Usuario con el email especificado existe
+[2021-11-15 13:40:47] [ INFO ] [UsuarioService:26] Usuario con el email especificado existe
+[2021-11-15 13:45:23] [ INFO ] [UsuarioService:37] Usuario Usuario [id=18, idRol=3, email=Yo@yo.com, clave=MTQy, nombre=null, apellido1=null, apellido2=null, direccion=null, provincia=null, localidad=null, telefono=null, dni=null] se ha registrado correctamente
+[2021-11-15 13:45:33] [ INFO ] [UsuarioService:26] Usuario con el email especificado existe
+[2021-11-15 13:45:45] [ INFO ] [UsuarioService:26] Usuario con el email especificado existe
+[2021-11-15 13:45:50] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 13:45:57] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 13:46:07] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 13:46:18] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 13:46:20] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 13:46:22] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 13:46:23] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 13:46:24] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 13:46:24] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 13:46:25] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 13:46:25] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 13:46:25] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 13:46:26] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 13:46:26] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 13:46:26] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 13:46:27] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 13:46:27] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 13:46:27] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 13:46:28] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 13:46:28] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 13:46:28] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 13:46:28] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 13:46:28] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 13:46:28] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 13:46:29] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 13:46:29] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 13:46:35] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 13:46:35] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 13:46:35] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 13:46:35] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 13:46:36] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 13:46:36] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 13:46:36] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 13:46:36] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 13:47:14] [ INFO ] [UsuarioService:66] Usuario Usuario [id=18, idRol=null, email=Yo@yo.com, clave=MTQy, nombre=, apellido1=probando, apellido2=la demo, direccion=c/Probando a Raul, provincia=Raulcito, localidad=Ricotin, telefono=6965656, dni=236356] editado correctamente
+[2021-11-15 13:48:28] [ INFO ] [UsuarioService:26] Usuario con el email especificado existe
+[2021-11-15 13:50:52] [ INFO ] [UsuarioService:26] Usuario con el email especificado existe
+[2021-11-15 13:51:00] [ INFO ] [UsuarioService:66] Usuario Usuario [id=18, idRol=3, email=Yo@yo.com, clave=MTQy, nombre=, apellido1=probando, apellido2=la demo, direccion=c/Probando a Raul, provincia=Raulcito, localidad=Ricotin, telefono=6965656, dni=236356] editado correctamente
+[2021-11-15 13:51:20] [ INFO ] [UsuarioService:66] Usuario Usuario [id=18, idRol=3, email=Yo@yo.com, clave=MTQy, nombre=Aaron, apellido1=probando, apellido2=la demo, direccion=c/Probando a Raul, provincia=Raulcito, localidad=Ricotin, telefono=6965656, dni=236356] editado correctamente
+[2021-11-15 13:51:55] [ INFO ] [UsuarioService:26] Usuario con el email especificado existe
+[2021-11-15 13:52:14] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 13:52:27] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 13:52:33] [ INFO ] [UsuarioService:66] Usuario Usuario [id=6, idRol=null, email=null, clave=null, nombre=SUDADERA ANIME NARUTO 3D, apellido1=null, apellido2=null, direccion=null, provincia=null, localidad=null, telefono=null, dni=null] editado correctamente
+[2021-11-15 13:54:14] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 13:54:20] [ INFO ] [UsuarioService:66] Usuario Usuario [id=6, idRol=null, email=null, clave=null, nombre=SUDADERA ANIME NARUTO 3D, apellido1=null, apellido2=null, direccion=null, provincia=null, localidad=null, telefono=null, dni=null] editado correctamente
+[2021-11-15 13:54:49] [ INFO ] [UsuarioService:43] Producto creado correctamente
+[2021-11-15 13:54:53] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 13:54:56] [ INFO ] [UsuarioService:66] Usuario Usuario [id=7, idRol=null, email=null, clave=null, nombre=Producto 4, apellido1=null, apellido2=null, direccion=null, provincia=null, localidad=null, telefono=null, dni=null] editado correctamente
+[2021-11-15 13:56:06] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 13:57:28] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 13:57:31] [ INFO ] [UsuarioService:55] Producto actualizado correctamente
+[2021-11-15 13:57:36] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 13:57:38] [ INFO ] [UsuarioService:55] Producto actualizado correctamente
+[2021-11-15 13:57:40] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 13:57:43] [ INFO ] [UsuarioService:55] Producto actualizado correctamente
+[2021-11-15 13:57:57] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 13:58:01] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 13:58:33] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 13:58:42] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 13:58:46] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 13:59:07] [ INFO ] [UsuarioService:49] Producto eliminado correctamente
+[2021-11-15 14:01:52] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 14:01:55] [ INFO ] [UsuarioService:55] Producto actualizado correctamente
+[2021-11-15 14:02:00] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 14:02:06] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 14:02:09] [ INFO ] [UsuarioService:55] Producto actualizado correctamente
+[2021-11-15 14:03:26] [ INFO ] [UsuarioService:66] Usuario Usuario [id=15, idRol=1, email=admin@tienda.es, clave=MTIzNA==, nombre=, apellido1=jjajajjajjajjjajjaaj, apellido2=, direccion=, provincia=, localidad=, telefono=, dni=] editado correctamente
+[2021-11-15 14:03:30] [ INFO ] [UsuarioService:66] Usuario Usuario [id=15, idRol=1, email=admin@tienda.es, clave=MTIzNA==, nombre=, apellido1=jjajajjajjajjjajjaaj, apellido2=, direccion=, provincia=, localidad=, telefono=, dni=] editado correctamente
+[2021-11-15 14:03:44] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 14:03:46] [ INFO ] [UsuarioService:55] Producto actualizado correctamente
+[2021-11-15 14:03:49] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 14:03:51] [ INFO ] [UsuarioService:55] Producto actualizado correctamente
+[2021-11-15 14:04:19] [ INFO ] [UsuarioService:55] Usuario con el id especificado existe
+[2021-11-15 14:04:30] [ INFO ] [UsuarioService:66] Usuario Usuario [id=17, idRol=null, email=cris@tienda.es, clave=MTIzNA==, nombre=Prueba, apellido1=sssss,, apellido2=null, direccion=, provincia=, localidad=, telefono=, dni=] editado correctamente
+[2021-11-15 14:07:07] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 14:07:11] [ INFO ] [UsuarioService:55] Producto actualizado correctamente
+[2021-11-15 14:09:13] [ INFO ] [UsuarioService:55] Usuario con el id especificado existe
+[2021-11-15 14:09:16] [ INFO ] [UsuarioService:55] Usuario con el id especificado existe
+[2021-11-15 14:09:20] [ INFO ] [UsuarioService:55] Usuario con el id especificado existe
+[2021-11-15 14:09:24] [ INFO ] [UsuarioService:66] Usuario Usuario [id=17, idRol=3, email=cris@tienda.es, clave=MTIzNA==, nombre=Pruebaa, apellido1=,, apellido2=null, direccion=, provincia=, localidad=, telefono=, dni=] editado correctamente
+[2021-11-15 14:10:12] [ INFO ] [UsuarioService:55] Usuario con el id especificado existe
+[2021-11-15 14:10:14] [ INFO ] [UsuarioService:66] Usuario Usuario [id=17, idRol=3, email=cris@tienda.es, clave=MTIzNA==, nombre=Pruebaa, apellido1=,, apellido2=null, direccion=, provincia=, localidad=, telefono=, dni=] editado correctamente
+[2021-11-15 14:12:50] [ INFO ] [UsuarioService:55] Usuario con el id especificado existe
+[2021-11-15 14:16:45] [ INFO ] [UsuarioService:26] Usuario con el email especificado existe
+[2021-11-15 14:16:50] [ INFO ] [UsuarioService:55] Usuario con el id especificado existe
+[2021-11-15 14:16:56] [ INFO ] [UsuarioService:66] Usuario Usuario [id=14, idRol=2, email=empleado@tienda.es, clave=MTIzNA==, nombre=empleado, apellido1=,, apellido2=null, direccion=, provincia=, localidad=, telefono=, dni=] editado correctamente
+[2021-11-15 14:18:59] [ INFO ] [UsuarioService:26] Usuario con el email especificado existe
+[2021-11-15 14:19:04] [ INFO ] [UsuarioService:55] Usuario con el id especificado existe
+[2021-11-15 14:19:28] [ INFO ] [UsuarioService:55] Usuario con el id especificado existe
+[2021-11-15 14:19:33] [ INFO ] [UsuarioService:66] Usuario Usuario [id=17, idRol=3, email=cris@tienda.es, clave=MTIzNA==, nombre=Prueba, apellido1=,, apellido2=null, direccion=, provincia=, localidad=, telefono=, dni=] editado correctamente
+[2021-11-15 14:20:24] [ INFO ] [UsuarioService:55] Usuario con el id especificado existe
+[2021-11-15 14:21:07] [ INFO ] [UsuarioService:26] Usuario con el email especificado existe
+[2021-11-15 14:21:13] [ INFO ] [UsuarioService:55] Usuario con el id especificado existe
+[2021-11-15 14:21:17] [ INFO ] [UsuarioService:66] Usuario Usuario [id=14, idRol=2, email=empleado@tienda.es, clave=MTIzNA==, nombre=empleado1, apellido1=,, apellido2=null, direccion=, provincia=, localidad=, telefono=, dni=] editado correctamente
+[2021-11-15 14:21:21] [ INFO ] [UsuarioService:55] Usuario con el id especificado existe
+[2021-11-15 14:24:41] [ INFO ] [UsuarioService:26] Usuario con el email especificado existe
+[2021-11-15 14:29:36] [ INFO ] [UsuarioService:26] Usuario con el email especificado existe
+[2021-11-15 14:29:46] [ INFO ] [UsuarioService:55] Usuario con el id especificado existe
+[2021-11-15 14:29:57] [ INFO ] [UsuarioService:37] Usuario Usuario [id=22, idRol=null, email=empleado2@tienda.es, clave=1234, nombre=null, apellido1=null, apellido2=null, direccion=null, provincia=null, localidad=null, telefono=null, dni=null] se ha registrado correctamente
+[2021-11-15 14:35:00] [ INFO ] [UsuarioService:26] Usuario con el email especificado existe
+[2021-11-15 14:35:18] [ INFO ] [UsuarioService:37] Usuario Usuario [id=23, idRol=2, email=empleado3@tienda.es, clave=MTIzNA==, nombre=null, apellido1=null, apellido2=null, direccion=null, provincia=null, localidad=null, telefono=null, dni=null] se ha registrado correctamente
+[2021-11-15 14:35:48] [ INFO ] [UsuarioService:26] Usuario con el email especificado existe
+[2021-11-15 14:36:23] [ INFO ] [UsuarioService:37] Usuario Usuario [id=24, idRol=3, email=nuevocli@tienda.es, clave=MTIzNA==, nombre=null, apellido1=null, apellido2=null, direccion=null, provincia=null, localidad=null, telefono=null, dni=null] se ha registrado correctamente
+[2021-11-15 14:36:38] [ INFO ] [UsuarioService:55] Usuario con el id especificado existe
+[2021-11-15 14:36:42] [ INFO ] [UsuarioService:66] Usuario Usuario [id=24, idRol=3, email=nuevocli@tienda.es, clave=MTIzNA==, nombre=clie nuevo, apellido1=,, apellido2=null, direccion=, provincia=, localidad=, telefono=, dni=] editado correctamente
+[2021-11-15 14:37:29] [ INFO ] [UsuarioService:26] Usuario con el email especificado existe
+[2021-11-15 14:37:39] [ INFO ] [UsuarioService:55] Usuario con el id especificado existe
+[2021-11-15 14:38:40] [ INFO ] [UsuarioService:66] Usuario Usuario [id=24, idRol=3, email=nuevocli@tienda.es, clave=MTIzNA==, nombre=Pelopicopata, apellido1=Raton,snape, apellido2=null, direccion=c/Probando a Raul, provincia=Tutankamon, localidad=Jualalumpur, telefono=666, dni=888] editado correctamente
+[2021-11-15 14:38:45] [ INFO ] [UsuarioService:55] Usuario con el id especificado existe
+[2021-11-15 14:38:56] [ INFO ] [UsuarioService:55] Usuario con el id especificado existe
+[2021-11-15 14:40:40] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 14:40:43] [ INFO ] [UsuarioService:55] Producto actualizado correctamente
+[2021-11-15 14:41:11] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 14:41:15] [ INFO ] [UsuarioService:55] Producto actualizado correctamente
+[2021-11-15 14:42:20] [ INFO ] [UsuarioService:37] Usuario Usuario [id=25, idRol=2, email=Pennesalabolonessa@pennes.com, clave=MzM2Ng==, nombre=null, apellido1=null, apellido2=null, direccion=null, provincia=null, localidad=null, telefono=null, dni=null] se ha registrado correctamente
+[2021-11-15 14:42:23] [ INFO ] [UsuarioService:55] Usuario con el id especificado existe
+[2021-11-15 14:42:41] [ INFO ] [UsuarioService:66] Usuario Usuario [id=25, idRol=2, email=Pennesalabolonessa@pennes.com, clave=MzM2Ng==, nombre=aasdasda, apellido1=asdadsa,asdsadsad, apellido2=null, direccion=asdadsad, provincia=asdassd, localidad=asdasd, telefono=6a, dni=888] editado correctamente
+[2021-11-15 14:42:45] [ INFO ] [UsuarioService:55] Usuario con el id especificado existe
+[2021-11-15 14:43:31] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 14:47:17] [ INFO ] [UsuarioService:29] Usuario con el email especificado no existe
+[2021-11-15 14:47:34] [ INFO ] [UsuarioService:37] Usuario Usuario [id=26, idRol=3, email=Yo@yo.com, clave=MTQy, nombre=null, apellido1=null, apellido2=null, direccion=null, provincia=null, localidad=null, telefono=null, dni=null] se ha registrado correctamente
+[2021-11-15 14:47:39] [ INFO ] [UsuarioService:26] Usuario con el email especificado existe
+[2021-11-15 14:47:42] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 14:47:43] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 18:19:52] [ INFO ] [UsuarioService:37] Usuario Usuario [id=18, idRol=3, email=prueba@tienda.es, clave=MTIzNA==, nombre=null, apellido1=null, apellido2=null, direccion=null, provincia=null, localidad=null, telefono=null, dni=null] se ha registrado correctamente
+[2021-11-15 18:19:59] [ INFO ] [UsuarioService:26] Usuario con el email especificado existe
+[2021-11-15 18:20:31] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 18:20:37] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 18:21:19] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 18:23:29] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 18:29:51] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 18:37:24] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 18:37:25] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 18:39:29] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 18:39:35] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 18:40:22] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 18:40:24] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 18:44:16] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 18:44:41] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 18:44:43] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 18:44:44] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 18:45:02] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 18:45:11] [ INFO ] [UsuarioService:26] Usuario con el email especificado existe
+[2021-11-15 18:45:19] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 18:54:50] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 18:55:00] [ INFO ] [UsuarioService:26] Usuario con el email especificado existe
+[2021-11-15 18:55:05] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 18:55:05] [ INFO ] [UsuarioService:55] Producto actualizado correctamente
+[2021-11-15 18:55:07] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-15 18:59:38] [ INFO ] [UsuarioService:26] Usuario con el email especificado existe
+[2021-11-15 19:11:52] [ INFO ] [UsuarioService:26] Usuario con el email especificado existe
+[2021-11-15 19:13:28] [ INFO ] [UsuarioService:26] Usuario con el email especificado existe
+[2021-11-15 19:14:56] [ INFO ] [UsuarioService:26] Usuario con el email especificado existe
+[2021-11-15 19:17:23] [ INFO ] [UsuarioService:26] Usuario con el email especificado existe

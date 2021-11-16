@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head th:replace="index::head">
+	</head >
+	<body>
+		 <nav th:replace="index::cabecera"></nav >
+		 <main>
+		 	<header th:replace="index::header"></header >
+    		<section class="py-5">
+            <div class="container px-4 px-lg-5 mt-5">
+                <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+                    <div th:each="carrito : ${session.carrito}" class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <div th:text="${carrito.nombreProducto}"></div >
+                                    <!-- Product price-->
+                                    <div th:text="'Precio por unidad: '+${carrito.precioUnidad} + '€'"></div >
+                                    <div th:text="'Unidades: '+${carrito.unidades}"></div >
+                                    <div th:text="'Total: '+${carrito.total} + ' €'"></div >
+                                    <br>
+                                    <div class="text-center"><a class="btn btn-outline-dark mt-auto" th:href="@{/carrito/eliminarCarrito/}+${carrito.idProducto}">Eliminar</a></div>
+                                </div>
+                                
+                            </div>
+                            <!-- Product actions-->
+                        </div>
+                    </div >
+                </div>
+            </div>
+            	<div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+            		<h5 class="text-center">TOTAL</h5>
+            		<div class="text-center" th:text="${precioTotal} + ' €'"></div  >
+            		<br>
+                	<div class="text-center"><a class="btn btn-outline-dark mt-auto" th:href="@{/carrito/confirmarCompra}">Prodecer a la compra</a></div>
+                </div>
+        </section>
+		 </main >
+		 <footer th:replace="index::pie"></footer >
+	</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta charset="utf-8">
+	    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/sign-in/">
+		<link th:href="@{/css/login/bootstrap.min.css}" rel="stylesheet">
+		<link th:href="@{/css/login/signin.css}" rel="stylesheet">
+		<link rel="icon" th:href="@{../favicon/favicon.ico}" type="image/png" />
+		<title>Editar Cliente</title>
+	    <style>
+	      .bd-placeholder-img {
+	        font-size: 1.125rem;
+	        text-anchor: middle;
+	        -webkit-user-select: none;
+	        -moz-user-select: none;
+	        user-select: none;
+	      }
+	
+	      @media (min-width: 768px) {
+	        .bd-placeholder-img-lg {
+	          font-size: 3.5rem;
+	        }
+	      }
+	    </style>
+	</head>
+    <body class="text-center">
+		<main class="form-signin">
+			<form name="login" th:action="@{/usuario/editarCliente}" th:object="${usuario}" method="POST">
+				<img class="mb-4" th:src="@{/img/formLogin.png}" alt="" width="72" height="72">
+				<h1 class="h3 mb-3 fw-normal">Editar cliente</h1>
+					<div class="form-floating">
+						<input type="hidden" class="form-control" id="floatingInput" name="id" th:field="*{id}">
+					</div>
+					<div class="form-floating">
+						<input type="hidden" class="form-control" id="floatingInput" name="idRol" th:field="*{idRol}">
+					</div>
+					<div class="form-floating">
+						<input type="hidden" class="form-control" id="floatingInput" name="email" th:field="*{email}">
+						<label for="floatingInput">Correo electrónico</label>
+					</div>
+					<div class="form-floating">
+						<input type="hidden" class="form-control" id="floatingPassword" name="clave" th:field="*{clave}">
+						<label for="floatingPassword">Contraseña</label>
+					</div>
+					<div class="form-floating">
+						<input type="text" class="form-control" id="floatingInput" name="nombre" placeholder="nombre" th:field="*{nombre}">
+						<label for="floatingInput">Nombre</label>
+					</div>
+					<div class="form-floating">
+						<input type="text" class="form-control" id="floatingInput" name="apellido1" placeholder="Primer apellido" th:field="*{apellido1}">
+						<label for="floatingInput">Apellido 1</label>
+					</div>
+					<div class="form-floating">
+						<input type="text" class="form-control" id="floatingInput" name="apellido2" placeholder="Segundo apellido" th:field="*{apellido2}">
+						<label for="floatingInput">Apellido 2</label>
+					</div>
+					<div class="form-floating">
+						<input type="text" class="form-control" id="floatingInput" name="direccion" placeholder="Dirección" th:field="*{direccion}">
+						<label for="floatingInput">Dirección</label>
+					</div>
+					<div class="form-floating">
+						<input type="text" class="form-control" id="floatingInput" name="provincia" placeholder="Provincia" th:field="*{provincia}">
+						<label for="floatingInput">Provincia</label>
+					</div>
+					<div class="form-floating">
+						<input type="text" class="form-control" id="floatingInput" name="localidad" placeholder="Localidad" th:field="*{localidad}">
+						<label for="floatingInput">Localidad</label>
+					</div>
+					<div class="form-floating">
+						<input type="text" class="form-control" id="floatingInput" name="telefono" placeholder="Teléfono" th:field="*{telefono}">
+						<label for="floatingInput">Teléfono</label>
+					</div>
+					<div class="form-floating">
+						<input type="text" class="form-control" id="floatingInput" name="dni" placeholder="dni" th:field="*{dni}">
+						<label for="floatingInput">DNI</label>
+					</div>
+					<br>
+					<button class="w-100 btn btn-lg btn-primary" type="submit">Editar Cliente</button>
+					<br><br>
+					<input class="w-100 btn btn-lg btn-primary" type="button" onclick="history.back()" name="volver" value="Volver">
+					<p class="mt-5 mb-3 text-muted">&copy; 2021–2022</p>
+			</form >
+		</main>
+	</body >
+</html>

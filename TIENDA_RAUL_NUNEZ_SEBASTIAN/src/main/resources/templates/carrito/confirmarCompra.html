@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head th:replace="index::head">
+	</head >
+	<body>
+		 <nav th:replace="index::cabecera"></nav >
+		 <main>
+		 	<header th:replace="index::header"></header >
+		 	<form th:action="@{/carrito/finalizarCompra}" th:object="${pedido}" method="POST">
+	    		<section class="py-5">
+		            <div class="container px-4 px-lg-5 mt-5">
+			            <h5 style ="text-align: center;"><b>Selecciona el método de pago:</b></h5>
+			            <br>
+		                <div th:each="metodoPago : ${metodoPago}" class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+		                    <div class="col mb-5">
+		                        <div class="card h-100">
+		                            <div class="card-body p-4">
+		                                <div class="text-center">
+		                                	<input type="radio" id="metodoPago" name="metodoPago" th:value="${metodoPago.metodoPago}" value="metodoPago" required="required">
+		    								<label for="metodoPago" th:text="${metodoPago.metodoPago}"></label>
+		                                </div>
+		                            </div>
+		                        </div>
+		                    </div >
+		                </div >
+		            </div>
+		            	<div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+		                	<div class="text-center"><button class="btn btn-outline-dark mt-auto">Finalizar comprar</button></div>
+		                	<br>
+		                	<div class="text-center"><a class="btn btn-outline-dark mt-auto" onclick="history.back()">Atrás</a></div>
+		                </div>
+	        	</section>
+		 	</form >
+		 </main >
+		 <footer th:replace="index::pie"></footer >
+	</body>
+</html>

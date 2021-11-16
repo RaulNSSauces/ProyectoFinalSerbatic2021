@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head th:fragment="head">
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <title>Tienda online</title>
+        <!-- Favicon-->
+        <link rel="icon" th:href="@{/favicon/favicon.ico}" type="image/png" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link th:href="@{/css/bootstrap/styles.css}" rel="stylesheet" />
+    </head >
+    <body>
+        <!-- Navigation-->
+        <nav th:fragment="cabecera" class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" th:href="@{/}">Tienda Online</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div th:if="${session.usuario} == null" class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul th:if="${session.usuario} == null" class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" th:href="@{/}">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" th:href="@{/usuario/formAlta}">Iniciar Sesión</a></li>
+                        <li class="nav-item"><a class="nav-link" th:href="@{/usuario/formRegistro}">Registrarse</a></li>
+                        </li>
+                    </ul >
+                    <form th:action="@{/carrito/vCarrito}" class="d-flex">
+                        <button class="btn btn-outline-dark" type="submit">
+                            <i class="bi-cart-fill me-1"></i>
+                            Carrito
+                        </button>
+                    </form >
+                </div >
+                <div th:unless="${session.usuario} == null" class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                        <li class="nav-item"><a class="nav-link" th:text="'Usuario conectado: '+${session.usuario.email}"></a></li>
+                        <li class="nav-item"><a class="nav-link" th:href="@{/usuario/formEditarPerfil}">Perfil</a></li>
+                        <li class="nav-item"><a class="nav-link" th:href="@{/usuario/formEditar}">Editar perfil</a></li>
+                        <li th:if="${session.usuario.idRol == 3}" class="nav-item"><a class="nav-link" th:href="@{/pedido/listaPedidos}">Mis pedidos</a></li >
+                        <li th:if="${session.usuario.idRol == 1 || session.usuario.idRol == 2}" class="nav-item"><a class="nav-link" th:href="@{/pedido/listarAllPedidos}">Pedidos clientes</a></li >
+                        <li th:if="${session.usuario.idRol == 1 || session.usuario.idRol == 2}" class="nav-item"><a class="nav-link" th:href="@{/producto/listadoProductos}">Productos</a></li >
+                        <li th:if="${session.usuario.idRol == 2}" class="nav-item"><a class="nav-link" th:href="@{/usuario/listadoClientes}">Clientes</a></li >
+                        <li th:if="${session.usuario.idRol == 1}" class="nav-item"><a class="nav-link" th:href="@{/usuario/listadoEmpleados}">Empleados</a></li >
+                        <li th:if="${session.usuario.idRol == 1}" class="nav-item"><a class="nav-link" th:href="@{/categorias/listarCategorias}">Categorías</a></li >
+                        <li class="nav-item"><a class="nav-link" th:href="@{/usuario/cerrarSesion}">Cerrar Sesión</a></li>
+                    </ul  >
+                    <form th:action="@{/carrito/vCarrito}" class="d-flex">
+                        <button class="btn btn-outline-dark" type="submit">
+                            <i class="bi-cart-fill me-1"></i>
+                            Carrito
+                        </button>
+                    </form  >
+                </div >
+            </div>
+        </nav >
+        <!-- Header-->
+        <header th:fragment="header" class="bg-dark py-5">
+            <div class="container px-4 px-lg-5 my-5">
+                <div class="text-center text-white">
+                    <h1 class="display-4 fw-bolder">Tienda Online</h1>
+                    <p class="lead fw-normal text-white-50 mb-0">Adquiere todos los productos de ropa en tu tienda online</p>
+                    <br>
+                    <nav>
+		                <ul>
+			                <a style="text-decoration: none;" th:href="@{/categorias/categoriaDragonBall}"><li  style="color: white; list-style:none;"><b>Dragon Ball</b></li  ></a  >
+			                <a style="text-decoration: none;" th:href="@{/categorias/categoriaNaruto}"><li style="color: white; list-style:none;"><b>Naruto</b></li ></a  >
+		                </ul >
+                	</nav >
+                </div>
+            </div>
+        </header >
+        <!-- Section-->
+        <section class="py-5">
+            <div class="container px-4 px-lg-5 mt-5">
+                <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+                    <div th:each="producto : ${lista}" class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" th:src="${producto.imagen}" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product name-->
+                                    <h5 class="fw-bolder" th:text="${producto.nombre}"></h5>
+                                    <!-- Product price-->
+                                    <div th:text="${producto.precio}+' €'"></div >
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" th:href="@{/carrito/agregarCarrito/}+${producto.id}">Añadir a la cesta</a></div>
+                                <br>
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" th:href="@{/producto/detallePedido/}+${producto.id}">Más detalles</a></div>
+                            </div>
+                        </div>
+                    </div >
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer th:fragment="pie" class="py-5 bg-dark">
+            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Raúl Núñez Sebastián 2021</p></div>
+        </footer >
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script th:src="@{/js/bootstrap/script.js}"></script>
+    </body>
+</html>

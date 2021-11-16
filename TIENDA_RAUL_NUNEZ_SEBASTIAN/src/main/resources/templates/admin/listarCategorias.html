@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head th:replace="index::head">
+	</head >
+	<body>
+		 <nav th:replace="index::cabecera"></nav >
+		 <main>
+		 	<header th:replace="index::header"></header >
+    			<section class="py-5">
+            		<div class="container px-4 px-lg-5 mt-5">
+                		<div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+                    		<div th:each="categoria : ${categorias}" class="col mb-5">
+                        		<div class="card h-100">
+                            		<div class="card-body p-4">
+                                		<div class="text-center">
+                                			<h5>Nombre de la categoría</h5>
+                                    		<div th:text="${categoria.nombre}"></div >
+                                    		<br>
+                                    		<h5>Descripción de la categoría</h5>
+                                    		<div th:text="${categoria.descripcion}"></div >
+                                		</div >
+                            		</div>
+                        		</div  >
+                    		</div  >
+                		</div>
+           		 	</div>
+            		<div class="text-center"><a class="btn btn-outline-dark mt-auto" th:href="@{/categorias/formAltaCategoria}">Añadir Categoría</a></div>
+        		</section>
+		 </main >
+		 <footer th:replace="index::pie"></footer >
+	</body>
+</html>

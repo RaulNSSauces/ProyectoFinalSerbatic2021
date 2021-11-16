@@ -1,0 +1,15 @@
+[2021-11-07 13:35:14] [ INFO ] [UsuarioService:34] UsuarioUsuario [id=4, idRol=null, email=ruli@tienda.es, clave=1234, nombre=Ruli, apellido1=, apellido2=, direccion=, provincia=, localidad=, telefono=, dni=]se ha registrado correctamente
+[2021-11-07 13:42:08] [ INFO ] [UsuarioService:24] Usuario con el email especificado existe
+[2021-11-07 14:04:08] [ INFO ] [UsuarioService:35] Usuario Usuario [id=5, idRol=null, email=, clave=, nombre=, apellido1=, apellido2=, direccion=, provincia=, localidad=, telefono=, dni=] se ha registrado correctamente
+[2021-11-07 14:05:02] [ INFO ] [UsuarioService:35] Usuario Usuario [id=6, idRol=null, email=, clave=, nombre=, apellido1=, apellido2=, direccion=, provincia=, localidad=, telefono=, dni=] se ha registrado correctamente
+[2021-11-07 14:20:27] [ INFO ] [UsuarioService:35] Usuario Usuario [id=7, idRol=null, email=, clave=, nombre=, apellido1=null, apellido2=null, direccion=null, provincia=null, localidad=null, telefono=null, dni=null] se ha registrado correctamente
+[2021-11-07 14:21:42] [ INFO ] [UsuarioService:27] Usuario con el email especificado no existe
+[2021-11-07 14:27:45] [ INFO ] [UsuarioService:35] Usuario Usuario [id=8, idRol=null, email=, clave=, nombre=, apellido1=null, apellido2=null, direccion=null, provincia=null, localidad=null, telefono=null, dni=null] se ha registrado correctamente
+[2021-11-07 14:36:58] [ INFO ] [UsuarioService:24] Usuario con el email especificado existe
+[2021-11-07 14:38:21] [ INFO ] [UsuarioService:35] Usuario Usuario [id=9, idRol=null, email=asas@sasas.es, clave=1234, nombre=Holoa, apellido1=null, apellido2=null, direccion=null, provincia=null, localidad=null, telefono=null, dni=null] se ha registrado correctamente
+[2021-11-07 14:39:04] [ INFO ] [UsuarioService:35] Usuario Usuario [id=10, idRol=null, email=errederulii@gmail.com, clave=1, nombre=AS, apellido1=null, apellido2=null, direccion=null, provincia=null, localidad=null, telefono=null, dni=null] se ha registrado correctamente
+[2021-11-07 14:48:35] [ INFO ] [UsuarioService:24] Usuario con el email especificado existe
+[2021-11-07 14:49:56] [ INFO ] [UsuarioService:24] Usuario con el email especificado existe
+[2021-11-07 16:27:40] [ INFO ] [UsuarioService:24] Usuario con el email especificado existe
+[2021-11-07 17:09:19] [ INFO ] [UsuarioService:24] Usuario con el email especificado existe
+[2021-11-07 17:16:34] [ INFO ] [UsuarioService:24] Usuario con el email especificado existe

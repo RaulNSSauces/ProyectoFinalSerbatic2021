@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head th:replace="index::head">
+	</head >
+	<body>
+		 <nav th:replace="index::cabecera"></nav >
+		 <main>
+		 	<header th:replace="index::header"></header >
+		 	<!--
+			<table border="2" width="100%" >
+	        	<tr th:each="pedido : ${listadoPedidosActualizados}">
+		        	<td th:text="${pedido.id}"></td>
+		            <td th:text="${pedido.idUsuario}"></td>
+		            <td th:text="${pedido.metodoPago}"></td>
+		            <td th:text="${pedido.estado}"></td>
+		            <td th:text="${pedido.total}"></td>
+		            <td th:if="${pedido.estado ne 'pendiente' && session.usuario.idRol == 1}"><button><a th:href="@{/pedido/solicitudCalcelado/}+${pedido.id}">Solicitud cancelar pendiente</a></button></td >
+		            <td th:if="${pedido.estado} eq 'pendiente'"><button><a th:href="@{/pedido/enviado/}+${pedido.id}">Enviar</a></button></td >
+        		</tr >
+    		</table >
+    		-->
+    		<section class="py-5">
+            		<div class="container px-4 px-lg-5 mt-5">
+                		<div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+                    		<div th:each="pedido : ${listadoPedidosActualizados}" class="col mb-5">
+                        		<div class="card h-100">
+                            		<div class="card-body p-4">
+                                		<div class="text-center">
+                                    		<p><b>MÉTODO DE PAGO</b></p>
+                                    		<div th:text="${pedido.metodoPago}"></div >
+                                    		<br>
+                                    		<p><b>FECHA</b></p>
+                                    		<div th:text="${pedido.fecha}"></div >
+                                    		<br>
+                                    		<p><b>ESTADO</b></p>
+                                    		<div th:text="${pedido.estado}"></div >
+                                    		<br>
+                                    		<p><b>TOTAL</b></p>
+                                    		<div th:text="${pedido.total}"></div >
+                                		</div >
+                            		</div>
+                            		<!-- Product actions-->
+                            		<div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                		<div th:if="${pedido.estado ne 'pendiente' && session.usuario.idRol == 1}" class="text-center"><a class="btn btn-outline-dark mt-auto" th:href="@{/pedido/solicitudCalcelado/}+${pedido.id}" onclick="if(!(confirm('¿Estás seguro de que quieres cancelar este pedido?'))) return false">Cancelar pedido</a></div >
+                                	<br>
+                                		<div th:if="${pedido.estado} eq 'pendiente'" class="text-center"><a class="btn btn-outline-dark mt-auto" th:href="@{/pedido/enviado/}+${pedido.id}">Enviar</a></div >
+                            		</div>
+                        		</div  >
+                    		</div  >
+                		</div>
+           		 	</div>
+        		</section>
+		 </main >
+		 <footer th:replace="index::pie"></footer >
+	</body>
+</html>

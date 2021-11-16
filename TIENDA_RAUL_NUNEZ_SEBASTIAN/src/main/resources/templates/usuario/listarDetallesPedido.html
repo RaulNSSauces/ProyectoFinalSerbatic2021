@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head th:replace="index::head">
+	</head >
+	<body>
+		 <nav th:replace="index::cabecera"></nav >
+		 <main>
+		 	<header th:replace="index::header"></header >
+		 	<hr>
+		 	
+			<table border="2" width="100%" >
+				<tr>
+			 		<th>Nombre Producto</th>
+			 		<th>Precio Unidad</th>
+			 		<th>Unidades</th>
+			 		<th>Total</th>
+			 		<th></th>
+			 	</tr>
+	        	<tr th:each="detallePedido : ${detallePedido}">
+		            <td th:text="${detallePedido.nombreProducto}"></td>
+		            <td th:text="${detallePedido.precioUnidad}"></td>
+		            <td th:text="${detallePedido.unidades}"></td>
+		            <td th:text="${detallePedido.total}"></td>
+        		</tr >
+    		</table >
+    		<br>
+		 </main >
+		 <footer th:replace="index::pie"></footer >
+	</body>
+</html>

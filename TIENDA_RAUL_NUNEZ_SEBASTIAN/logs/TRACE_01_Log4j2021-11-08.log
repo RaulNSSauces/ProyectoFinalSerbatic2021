@@ -1,0 +1,67 @@
+[2021-11-08 09:15:00] [ INFO ] [UsuarioService:35] Usuario Usuario [id=1, idRol=null, email=raul@tienda.es, clave=1234, nombre=Ruli, apellido1=null, apellido2=null, direccion=null, provincia=null, localidad=null, telefono=null, dni=null] se ha registrado correctamente
+[2021-11-08 09:15:05] [ INFO ] [UsuarioService:24] Usuario con el email especificado existe
+[2021-11-08 09:16:03] [ INFO ] [UsuarioService:24] Usuario con el email especificado existe
+[2021-11-08 09:28:56] [ INFO ] [UsuarioService:27] Usuario con el email especificado no existe
+[2021-11-08 09:29:17] [ INFO ] [UsuarioService:27] Usuario con el email especificado no existe
+[2021-11-08 09:29:23] [ INFO ] [UsuarioService:27] Usuario con el email especificado no existe
+[2021-11-08 09:32:12] [ INFO ] [UsuarioService:27] Usuario con el email especificado no existe
+[2021-11-08 09:32:32] [ INFO ] [UsuarioService:27] Usuario con el email especificado no existe
+[2021-11-08 09:35:33] [ INFO ] [UsuarioService:27] Usuario con el email especificado no existe
+[2021-11-08 09:37:03] [ INFO ] [UsuarioService:27] Usuario con el email especificado no existe
+[2021-11-08 09:37:36] [ INFO ] [UsuarioService:27] Usuario con el email especificado no existe
+[2021-11-08 09:37:51] [ INFO ] [UsuarioService:27] Usuario con el email especificado no existe
+[2021-11-08 09:38:21] [ INFO ] [UsuarioService:27] Usuario con el email especificado no existe
+[2021-11-08 09:38:28] [ INFO ] [UsuarioService:27] Usuario con el email especificado no existe
+[2021-11-08 09:38:33] [ INFO ] [UsuarioService:27] Usuario con el email especificado no existe
+[2021-11-08 09:38:49] [ INFO ] [UsuarioService:27] Usuario con el email especificado no existe
+[2021-11-08 09:38:52] [ INFO ] [UsuarioService:27] Usuario con el email especificado no existe
+[2021-11-08 09:48:34] [ INFO ] [UsuarioService:24] Usuario con el email especificado existe
+[2021-11-08 09:52:19] [ INFO ] [UsuarioService:24] Usuario con el email especificado existe
+[2021-11-08 09:56:36] [ INFO ] [UsuarioService:35] Usuario Usuario [id=2, idRol=null, email=, clave=, nombre=null, apellido1=null, apellido2=null, direccion=null, provincia=null, localidad=null, telefono=null, dni=null] se ha registrado correctamente
+[2021-11-08 09:59:55] [ INFO ] [UsuarioService:35] Usuario Usuario [id=3, idRol=null, email=prueba@tienda.es, clave=123, nombre=null, apellido1=null, apellido2=null, direccion=null, provincia=null, localidad=null, telefono=null, dni=null] se ha registrado correctamente
+[2021-11-08 10:03:03] [ INFO ] [UsuarioService:35] Usuario Usuario [id=4, idRol=null, email=prueba@tienda.es, clave=123, nombre=null, apellido1=null, apellido2=null, direccion=null, provincia=null, localidad=null, telefono=null, dni=null] se ha registrado correctamente
+[2021-11-08 10:09:03] [ INFO ] [UsuarioService:35] Usuario Usuario [id=5, idRol=null, email=prueba@tienda.es, clave=123, nombre=null, apellido1=null, apellido2=null, direccion=null, provincia=null, localidad=null, telefono=null, dni=null] se ha registrado correctamente
+[2021-11-08 10:09:13] [ INFO ] [UsuarioService:24] Usuario con el email especificado existe
+[2021-11-08 10:17:13] [ INFO ] [UsuarioService:35] Usuario Usuario [id=6, idRol=null, email=dadas@tienda.es, clave=123, nombre=null, apellido1=null, apellido2=null, direccion=null, provincia=null, localidad=null, telefono=null, dni=null] se ha registrado correctamente
+[2021-11-08 10:17:19] [ INFO ] [UsuarioService:24] Usuario con el email especificado existe
+[2021-11-08 10:28:25] [ INFO ] [UsuarioService:24] Usuario con el email especificado existe
+[2021-11-08 10:50:35] [ INFO ] [UsuarioService:24] Usuario con el email especificado existe
+[2021-11-08 10:57:07] [ INFO ] [UsuarioService:27] Usuario con el email especificado no existe
+[2021-11-08 10:57:26] [ INFO ] [UsuarioService:24] Usuario con el email especificado existe
+[2021-11-08 11:02:38] [ INFO ] [UsuarioService:24] Usuario con el email especificado existe
+[2021-11-08 11:04:54] [ INFO ] [UsuarioService:24] Usuario con el email especificado existe
+[2021-11-08 11:06:32] [ INFO ] [UsuarioService:24] Usuario con el email especificado existe
+[2021-11-08 11:18:40] [ INFO ] [UsuarioService:24] Usuario con el email especificado existe
+[2021-11-08 11:22:36] [ INFO ] [UsuarioService:24] Usuario con el email especificado existe
+[2021-11-08 11:25:23] [ INFO ] [UsuarioService:24] Usuario con el email especificado existe
+[2021-11-08 11:25:31] [ INFO ] [UsuarioService:59] Usuario Usuario [id=1, idRol=null, email=, clave=, nombre=Ruli, apellido1=Bastian,, apellido2=null, direccion=, provincia=, localidad=, telefono=, dni=] editado correctamente
+[2021-11-08 11:28:18] [ INFO ] [UsuarioService:27] Usuario con el email especificado no existe
+[2021-11-08 11:28:23] [ INFO ] [UsuarioService:27] Usuario con el email especificado no existe
+[2021-11-08 11:28:32] [ INFO ] [UsuarioService:27] Usuario con el email especificado no existe
+[2021-11-08 12:10:26] [ INFO ] [UsuarioService:35] Usuario Usuario [id=7, idRol=null, email=raul@tienda.es, clave=1234, nombre=null, apellido1=null, apellido2=null, direccion=null, provincia=null, localidad=null, telefono=null, dni=null] se ha registrado correctamente
+[2021-11-08 12:10:29] [ INFO ] [UsuarioService:24] Usuario con el email especificado existe
+[2021-11-08 12:10:40] [ INFO ] [UsuarioService:59] Usuario Usuario [id=7, idRol=null, email=raul@tienda.es, clave=1234, nombre=Ruli, apellido1=,, apellido2=null, direccion=, provincia=, localidad=, telefono=, dni=] editado correctamente
+[2021-11-08 12:17:01] [ INFO ] [UsuarioService:24] Usuario con el email especificado existe
+[2021-11-08 12:18:27] [ INFO ] [UsuarioService:24] Usuario con el email especificado existe
+[2021-11-08 12:20:46] [ INFO ] [UsuarioService:24] Usuario con el email especificado existe
+[2021-11-08 12:39:16] [ INFO ] [UsuarioService:24] Usuario con el email especificado existe
+[2021-11-08 12:43:20] [ INFO ] [UsuarioService:24] Usuario con el email especificado existe
+[2021-11-08 12:55:10] [ INFO ] [UsuarioService:35] Usuario Usuario [id=8, idRol=null, email=prueba@tienda.es, clave=1234, nombre=null, apellido1=null, apellido2=null, direccion=null, provincia=null, localidad=null, telefono=null, dni=null] se ha registrado correctamente
+[2021-11-08 12:55:15] [ INFO ] [UsuarioService:24] Usuario con el email especificado existe
+[2021-11-08 12:55:20] [ INFO ] [UsuarioService:41] Usuario eliminado correctamente
+[2021-11-08 12:55:27] [ INFO ] [UsuarioService:27] Usuario con el email especificado no existe
+[2021-11-08 12:55:42] [ INFO ] [UsuarioService:27] Usuario con el email especificado no existe
+[2021-11-08 12:56:01] [ INFO ] [UsuarioService:35] Usuario Usuario [id=9, idRol=null, email=prueba@tienda.es, clave=1234, nombre=null, apellido1=null, apellido2=null, direccion=null, provincia=null, localidad=null, telefono=null, dni=null] se ha registrado correctamente
+[2021-11-08 12:56:09] [ INFO ] [UsuarioService:24] Usuario con el email especificado existe
+[2021-11-08 12:56:14] [ INFO ] [UsuarioService:41] Usuario eliminado correctamente
+[2021-11-08 12:56:17] [ INFO ] [UsuarioService:27] Usuario con el email especificado no existe
+[2021-11-08 13:00:36] [ INFO ] [UsuarioService:35] Usuario Usuario [id=10, idRol=null, email=prueba@tienda.es, clave=1234, nombre=null, apellido1=null, apellido2=null, direccion=null, provincia=null, localidad=null, telefono=null, dni=null] se ha registrado correctamente
+[2021-11-08 13:00:40] [ INFO ] [UsuarioService:24] Usuario con el email especificado existe
+[2021-11-08 13:01:00] [ INFO ] [UsuarioService:41] Usuario eliminado correctamente
+[2021-11-08 13:05:12] [ INFO ] [UsuarioService:35] Usuario Usuario [id=11, idRol=null, email=prueba@tienda.es, clave=1234, nombre=null, apellido1=null, apellido2=null, direccion=null, provincia=null, localidad=null, telefono=null, dni=null] se ha registrado correctamente
+[2021-11-08 13:05:15] [ INFO ] [UsuarioService:24] Usuario con el email especificado existe
+[2021-11-08 13:05:35] [ INFO ] [UsuarioService:41] Usuario eliminado correctamente
+[2021-11-08 13:05:41] [ INFO ] [UsuarioService:27] Usuario con el email especificado no existe
+[2021-11-08 19:09:53] [ INFO ] [UsuarioService:32] Producto con el id especificado existe
+[2021-11-08 19:10:41] [ INFO ] [UsuarioService:32] Producto con el id especificado existe
+[2021-11-08 19:14:26] [ INFO ] [UsuarioService:32] Producto con el id especificado existe

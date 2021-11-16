@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta charset="utf-8">
+	    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/sign-in/">
+		<link th:href="@{/css/login/bootstrap.min.css}" rel="stylesheet">
+		<link th:href="@{/css/login/signin.css}" rel="stylesheet">
+		<script type="text/javascript" th:src="@{/js/script.js}"></script>
+		<link rel="icon" th:href="@{../favicon/favicon.ico}" type="image/png" />
+		<title>Registro empleados</title>
+	    <style>
+	      .bd-placeholder-img {
+	        font-size: 1.125rem;
+	        text-anchor: middle;
+	        -webkit-user-select: none;
+	        -moz-user-select: none;
+	        user-select: none;
+	      }
+	
+	      @media (min-width: 768px) {
+	        .bd-placeholder-img-lg {
+	          font-size: 3.5rem;
+	        }
+	      }
+	    </style>
+	</head>
+    <body class="text-center">
+		<main class="form-signin">
+			<form name="login" th:action="@{/usuario/altaEmpleado}" th:object="${usuario}" method="POST" onsubmit="return validarRegistro()">
+				<img class="mb-4" th:src="@{/img/formLogin.png}" alt="" width="72" height="72">
+				<h1 class="h3 mb-3 fw-normal">Registrar empleado nuevo</h1>
+					<div class="form-floating">
+						<input type="email" class="form-control" id="email" name="email" placeholder="name@example.com">
+						<label for="floatingInput">Correo electrónico</label>
+						<span id="alerta1"></span >
+					</div>
+					<div class="form-floating">
+						<input type="password" class="form-control" id="clave" name="clave" placeholder="Password">
+						<label for="floatingPassword">Contraseña</label>
+						<span id="alerta2"></span >
+					</div>
+					<div class="form-floating">
+						<input type="password" class="form-control" id="claveConfirmada" name="claveConfirmada" placeholder="Password">
+						<label for="floatingPassword">Repetir contraseña</label>
+						<span id="alerta3"></span >
+					</div>
+					<br>
+					<button class="w-100 btn btn-lg btn-primary" type="submit">Registrar empleado</button>
+					<br><br>
+					<input class="w-100 btn btn-lg btn-primary" type="button" onclick="history.back()" name="volver" value="Volver">
+					<p class="mt-5 mb-3 text-muted">&copy; 2021–2022</p>
+			</form >
+		</main>
+	</body >
+</html>

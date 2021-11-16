@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta charset="utf-8">
+	    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/sign-in/">
+		<link th:href="@{/css/login/bootstrap.min.css}" rel="stylesheet">
+		<link th:href="@{/css/login/signin.css}" rel="stylesheet">
+		<link rel="icon" th:href="@{../favicon/favicon.ico}" type="image/png" />
+		<script type="text/javascript" th:src="@{/js/mostrarPassword/script.js}"></script>
+		<title>Login</title>
+	    <style>
+	      .bd-placeholder-img {
+	        font-size: 1.125rem;
+	        text-anchor: middle;
+	        -webkit-user-select: none;
+	        -moz-user-select: none;
+	        user-select: none;
+	      }
+	
+	      @media (min-width: 768px) {
+	        .bd-placeholder-img-lg {
+	          font-size: 3.5rem;
+	        }
+	      }
+	    </style>
+	</head>
+    <body class="text-center">
+		<main class="form-signin">
+			<form name="login" th:action="@{/usuario/iniciarSesion}" method="POST">
+				<img class="mb-4" th:src="@{/img/formLogin.png}" alt="" width="72" height="72">
+				<h1 class="h3 mb-3 fw-normal">Inicio de sesión</h1>
+					<div class="form-floating">
+						<input type="email" class="form-control" id="floatingInput" name="email" placeholder="name@example.com">
+						<label for="floatingInput">Correo electrónico</label>
+					</div>
+					<div class="form-floating">
+						<input type="password" class="form-control" id="floatingPassword" name="clave" placeholder="Password">
+						<label for="floatingPassword">Contraseña</label>
+					</div>
+					<div>
+						<img id="pass" style="width: 30px;" th:src="@{/img/invisible.png}" onclick="mostrarPassword()">
+					</div>
+					<p th:text="${mensaje}" style="color:red;"></p >
+					<div class="checkbox mb-3">
+						<label>
+							<input type="checkbox" value="remember-me"> Recuérdame
+						</label>
+					</div>
+					<button class="w-100 btn btn-lg btn-primary" type="submit">Iniciar sesión</button>
+					<br><br>
+					<input class="w-100 btn btn-lg btn-primary" type="button" onclick="history.back()" name="volver" value="Volver">	
+			</form >
+			<p class="mt-5 mb-3 text-muted">&copy; 2021–2022</p>
+		</main>
+	</body >
+</html>

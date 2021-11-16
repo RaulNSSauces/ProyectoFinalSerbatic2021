@@ -1,0 +1,50 @@
+[2021-11-16 10:10:29] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-16 10:11:26] [ INFO ] [UsuarioService:56] Usuario Usuario [id=19, idRol=3, email=prueba@tienda.es, clave=MTIzNA==, nombre=null, apellido1=null, apellido2=null, direccion=null, provincia=null, localidad=null, telefono=null, dni=null] se ha registrado correctamente
+[2021-11-16 10:11:33] [ INFO ] [UsuarioService:39] Usuario con el email especificado existe
+[2021-11-16 10:11:49] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-16 10:11:49] [ INFO ] [UsuarioService:55] Producto actualizado correctamente
+[2021-11-16 10:12:04] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-16 10:12:19] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-16 10:12:19] [ INFO ] [UsuarioService:55] Producto actualizado correctamente
+[2021-11-16 10:12:34] [ INFO ] [UsuarioService:39] Usuario con el email especificado existe
+[2021-11-16 10:14:05] [ INFO ] [UsuarioService:39] Usuario con el email especificado existe
+[2021-11-16 10:15:16] [ INFO ] [UsuarioService:111] Usuario Usuario [id=19, idRol=3, email=prueba@tienda.es, clave=MTIzNA==, nombre=, apellido1=, apellido2=, direccion=, provincia=, localidad=, telefono=, dni=] editado correctamente
+[2021-11-16 10:15:57] [ INFO ] [UsuarioService:111] Usuario Usuario [id=19, idRol=3, email=prueba@tienda.es, clave=MTIzNA==, nombre=Raul, apellido1=, apellido2=, direccion=, provincia=, localidad=, telefono=, dni=] editado correctamente
+[2021-11-16 10:16:10] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-16 10:16:15] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-16 10:16:15] [ INFO ] [UsuarioService:55] Producto actualizado correctamente
+[2021-11-16 10:16:31] [ INFO ] [UsuarioService:39] Usuario con el email especificado existe
+[2021-11-16 10:16:46] [ INFO ] [UsuarioService:56] Usuario Usuario [id=20, idRol=2, email=empleado@tienda.es, clave=MTIzNA==, nombre=null, apellido1=null, apellido2=null, direccion=null, provincia=null, localidad=null, telefono=null, dni=null] se ha registrado correctamente
+[2021-11-16 10:16:56] [ INFO ] [UsuarioService:39] Usuario con el email especificado existe
+[2021-11-16 10:17:37] [ INFO ] [UsuarioService:43] Producto creado correctamente
+[2021-11-16 10:18:13] [ INFO ] [UsuarioService:49] Producto eliminado correctamente
+[2021-11-16 10:18:46] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-16 10:18:48] [ INFO ] [UsuarioService:55] Producto actualizado correctamente
+[2021-11-16 10:18:50] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-16 10:18:53] [ INFO ] [UsuarioService:55] Producto actualizado correctamente
+[2021-11-16 10:19:47] [ INFO ] [UsuarioService:39] Usuario con el email especificado existe
+[2021-11-16 10:20:26] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-16 10:29:05] [ INFO ] [UsuarioService:39] Usuario con el email especificado existe
+[2021-11-16 10:33:53] [ INFO ] [UsuarioService:39] Usuario con el email especificado existe
+[2021-11-16 10:37:31] [ INFO ] [UsuarioService:39] Usuario con el email especificado existe
+[2021-11-16 10:37:40] [ INFO ] [UsuarioService:56] Usuario Usuario [id=19, idRol=3, email=prueba@tienda.es, clave=MTIzNDU=, nombre=null, apellido1=null, apellido2=null, direccion=null, provincia=null, localidad=null, telefono=null, dni=null] se ha registrado correctamente
+[2021-11-16 10:37:57] [ INFO ] [UsuarioService:56] Usuario Usuario [id=19, idRol=3, email=prueba@tienda.es, clave=MTIzNA==, nombre=null, apellido1=null, apellido2=null, direccion=null, provincia=null, localidad=null, telefono=null, dni=null] se ha registrado correctamente
+[2021-11-16 10:38:03] [ INFO ] [UsuarioService:39] Usuario con el email especificado existe
+[2021-11-16 10:38:13] [ INFO ] [UsuarioService:56] Usuario Usuario [id=19, idRol=3, email=prueba@tienda.es, clave=YWRtaW4=, nombre=null, apellido1=null, apellido2=null, direccion=null, provincia=null, localidad=null, telefono=null, dni=null] se ha registrado correctamente
+[2021-11-16 10:38:19] [ INFO ] [UsuarioService:39] Usuario con el email especificado existe
+[2021-11-16 10:39:03] [ INFO ] [UsuarioService:56] Usuario Usuario [id=19, idRol=3, email=prueba@tienda.es, clave=MTIzNA==, nombre=null, apellido1=null, apellido2=null, direccion=null, provincia=null, localidad=null, telefono=null, dni=null] se ha registrado correctamente
+[2021-11-16 10:39:17] [ INFO ] [UsuarioService:56] Usuario Usuario [id=19, idRol=3, email=prueba@tienda.es, clave=MTIzNDU=, nombre=null, apellido1=null, apellido2=null, direccion=null, provincia=null, localidad=null, telefono=null, dni=null] se ha registrado correctamente
+[2021-11-16 10:40:09] [ INFO ] [UsuarioService:39] Usuario con el email especificado existe
+[2021-11-16 10:40:15] [ INFO ] [UsuarioService:39] Usuario con el email especificado existe
+[2021-11-16 10:40:30] [ INFO ] [UsuarioService:56] Usuario Usuario [id=19, idRol=3, email=prueba@tienda.es, clave=YWRtaW4=, nombre=null, apellido1=null, apellido2=null, direccion=null, provincia=null, localidad=null, telefono=null, dni=null] se ha registrado correctamente
+[2021-11-16 10:40:38] [ INFO ] [UsuarioService:39] Usuario con el email especificado existe
+[2021-11-16 10:40:47] [ INFO ] [UsuarioService:39] Usuario con el email especificado existe
+[2021-11-16 10:42:35] [ INFO ] [UsuarioService:39] Usuario con el email especificado existe
+[2021-11-16 10:42:48] [ INFO ] [UsuarioService:56] Usuario Usuario [id=19, idRol=3, email=prueba@tienda.es, clave=YWRtaW4=, nombre=null, apellido1=null, apellido2=null, direccion=null, provincia=null, localidad=null, telefono=null, dni=null] se ha registrado correctamente
+[2021-11-16 10:43:22] [ INFO ] [UsuarioService:39] Usuario con el email especificado existe
+[2021-11-16 10:46:32] [ INFO ] [UsuarioService:39] Usuario con el email especificado existe
+[2021-11-16 10:47:46] [ INFO ] [UsuarioService:56] Usuario Usuario [id=19, idRol=3, email=prueba@tienda.es, clave=YWRtaW4=, nombre=null, apellido1=null, apellido2=null, direccion=null, provincia=null, localidad=null, telefono=null, dni=null] se ha registrado correctamente
+[2021-11-16 10:48:40] [ INFO ] [UsuarioService:39] Usuario con el email especificado existe
+[2021-11-16 10:49:13] [ INFO ] [UsuarioService:56] Usuario Usuario [id=19, idRol=3, email=prueba@tienda.es, clave=MTIzNA==, nombre=null, apellido1=null, apellido2=null, direccion=null, provincia=null, localidad=null, telefono=null, dni=null] se ha registrado correctamente
+[2021-11-16 10:57:11] [ INFO ] [UsuarioService:26] Producto con el id especificado existe
+[2021-11-16 10:57:27] [ INFO ] [UsuarioService:26] Producto con el id especificado existe

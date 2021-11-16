@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head th:replace="index::head">
+	</head >
+	<body>
+		 <nav th:replace="index::cabecera"></nav >
+		 <main>
+		 	<header th:replace="index::header"></header >
+    		<section class="py-5">
+            <div class="container px-4 px-lg-5 mt-5">
+            <h5 style ="text-align: center;"><b>Compra realizada correctamente</b></h5>
+            </div>
+            <br><br>
+            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <div class="text-center"><a class="btn btn-outline-dark mt-auto" th:href="@{/carrito/volverTienda}">Volver a la tienda</a></div>
+            </div>
+        </section>
+		 </main >
+		 <footer th:replace="index::pie"></footer >
+	</body>
+</html>

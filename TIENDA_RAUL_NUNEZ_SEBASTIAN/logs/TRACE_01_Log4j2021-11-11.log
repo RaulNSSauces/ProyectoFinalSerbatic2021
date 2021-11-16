@@ -1,0 +1,88 @@
+[2021-11-11 09:22:35] [ INFO ] [UsuarioService:24] Usuario con el email especificado existe
+[2021-11-11 09:22:39] [ INFO ] [UsuarioService:24] Usuario con el email especificado existe
+[2021-11-11 09:27:07] [ INFO ] [UsuarioService:36] Producto con el id especificado existe
+[2021-11-11 09:37:39] [ INFO ] [UsuarioService:24] Usuario con el email especificado existe
+[2021-11-11 09:40:27] [ INFO ] [UsuarioService:35] Usuario Usuario [id=13, idRol=null, email=raul@tienda.es, clave=MTIzNA==, nombre=null, apellido1=null, apellido2=null, direccion=null, provincia=null, localidad=null, telefono=null, dni=null] se ha registrado correctamente
+[2021-11-11 09:40:33] [ INFO ] [UsuarioService:24] Usuario con el email especificado existe
+[2021-11-11 09:57:41] [ INFO ] [UsuarioService:24] Usuario con el email especificado existe
+[2021-11-11 09:58:53] [ INFO ] [UsuarioService:24] Usuario con el email especificado existe
+[2021-11-11 09:59:07] [ INFO ] [UsuarioService:24] Usuario con el email especificado existe
+[2021-11-11 10:23:54] [ INFO ] [UsuarioService:24] Usuario con el email especificado existe
+[2021-11-11 10:42:34] [ INFO ] [UsuarioService:24] Usuario con el email especificado existe
+[2021-11-11 10:49:57] [ INFO ] [UsuarioService:36] Producto con el id especificado existe
+[2021-11-11 11:10:34] [ INFO ] [UsuarioService:36] Producto con el id especificado existe
+[2021-11-11 11:11:38] [ INFO ] [UsuarioService:36] Producto con el id especificado existe
+[2021-11-11 11:28:03] [ INFO ] [UsuarioService:24] Usuario con el email especificado existe
+[2021-11-11 12:03:05] [ INFO ] [UsuarioService:36] Producto con el id especificado existe
+[2021-11-11 12:03:12] [ INFO ] [UsuarioService:36] Producto con el id especificado existe
+[2021-11-11 12:03:29] [ INFO ] [UsuarioService:36] Producto con el id especificado existe
+[2021-11-11 12:03:41] [ INFO ] [UsuarioService:36] Producto con el id especificado existe
+[2021-11-11 12:03:43] [ INFO ] [UsuarioService:36] Producto con el id especificado existe
+[2021-11-11 12:03:52] [ INFO ] [UsuarioService:36] Producto con el id especificado existe
+[2021-11-11 12:04:15] [ INFO ] [UsuarioService:36] Producto con el id especificado existe
+[2021-11-11 12:04:25] [ INFO ] [UsuarioService:36] Producto con el id especificado existe
+[2021-11-11 12:05:02] [ INFO ] [UsuarioService:36] Producto con el id especificado existe
+[2021-11-11 12:05:08] [ INFO ] [UsuarioService:36] Producto con el id especificado existe
+[2021-11-11 12:05:32] [ INFO ] [UsuarioService:36] Producto con el id especificado existe
+[2021-11-11 12:05:48] [ INFO ] [UsuarioService:36] Producto con el id especificado existe
+[2021-11-11 12:06:04] [ INFO ] [UsuarioService:36] Producto con el id especificado existe
+[2021-11-11 12:06:11] [ INFO ] [UsuarioService:36] Producto con el id especificado existe
+[2021-11-11 12:06:19] [ INFO ] [UsuarioService:36] Producto con el id especificado existe
+[2021-11-11 12:06:31] [ INFO ] [UsuarioService:36] Producto con el id especificado existe
+[2021-11-11 12:06:38] [ INFO ] [UsuarioService:36] Producto con el id especificado existe
+[2021-11-11 12:07:13] [ INFO ] [UsuarioService:36] Producto con el id especificado existe
+[2021-11-11 12:07:26] [ INFO ] [UsuarioService:36] Producto con el id especificado existe
+[2021-11-11 12:07:43] [ INFO ] [UsuarioService:36] Producto con el id especificado existe
+[2021-11-11 12:07:50] [ INFO ] [UsuarioService:36] Producto con el id especificado existe
+[2021-11-11 12:08:42] [ INFO ] [UsuarioService:36] Producto con el id especificado existe
+[2021-11-11 12:08:44] [ INFO ] [UsuarioService:36] Producto con el id especificado existe
+[2021-11-11 12:08:46] [ INFO ] [UsuarioService:36] Producto con el id especificado existe
+[2021-11-11 12:16:07] [ INFO ] [UsuarioService:36] Producto con el id especificado existe
+[2021-11-11 12:19:39] [ INFO ] [UsuarioService:36] Producto con el id especificado existe
+[2021-11-11 12:29:26] [ INFO ] [UsuarioService:24] Usuario con el email especificado existe
+[2021-11-11 12:54:12] [ INFO ] [UsuarioService:36] Producto con el id especificado existe
+[2021-11-11 12:54:20] [ INFO ] [UsuarioService:24] Usuario con el email especificado existe
+[2021-11-11 13:34:10] [ INFO ] [UsuarioService:36] Producto con el id especificado existe
+[2021-11-11 13:34:39] [ INFO ] [UsuarioService:36] Producto con el id especificado existe
+[2021-11-11 13:34:55] [ INFO ] [UsuarioService:36] Producto con el id especificado existe
+[2021-11-11 13:45:42] [ INFO ] [UsuarioService:36] Producto con el id especificado existe
+[2021-11-11 13:48:05] [ INFO ] [UsuarioService:24] Usuario con el email especificado existe
+[2021-11-11 14:03:03] [ INFO ] [UsuarioService:36] Producto con el id especificado existe
+[2021-11-11 14:03:13] [ INFO ] [UsuarioService:36] Producto con el id especificado existe
+[2021-11-11 14:30:16] [ INFO ] [UsuarioService:36] Producto con el id especificado existe
+[2021-11-11 14:30:24] [ INFO ] [UsuarioService:36] Producto con el id especificado existe
+[2021-11-11 14:31:00] [ INFO ] [UsuarioService:36] Producto con el id especificado existe
+[2021-11-11 14:40:31] [ INFO ] [UsuarioService:26] Usuario con el email especificado existe
+[2021-11-11 14:41:22] [ INFO ] [UsuarioService:26] Usuario con el email especificado existe
+[2021-11-11 14:45:59] [ INFO ] [UsuarioService:24] Usuario con el email especificado existe
+[2021-11-11 14:47:39] [ INFO ] [UsuarioService:24] Usuario con el email especificado existe
+[2021-11-11 18:33:55] [ INFO ] [UsuarioService:36] Producto con el id especificado existe
+[2021-11-11 18:34:00] [ INFO ] [UsuarioService:36] Producto con el id especificado existe
+[2021-11-11 18:34:02] [ INFO ] [UsuarioService:36] Producto con el id especificado existe
+[2021-11-11 18:34:55] [ INFO ] [UsuarioService:24] Usuario con el email especificado existe
+[2021-11-11 18:54:13] [ INFO ] [UsuarioService:26] Usuario con el email especificado existe
+[2021-11-11 19:04:17] [ INFO ] [UsuarioService:37] Usuario Usuario [id=12, idRol=null, email=admin@tienda.es, clave=1234, nombre=null, apellido1=null, apellido2=null, direccion=null, provincia=null, localidad=null, telefono=null, dni=null] se ha registrado correctamente
+[2021-11-11 19:07:14] [ INFO ] [UsuarioService:37] Usuario Usuario [id=13, idRol=null, email=admin@tienda.es, clave=1234, nombre=null, apellido1=null, apellido2=null, direccion=null, provincia=null, localidad=null, telefono=null, dni=null] se ha registrado correctamente
+[2021-11-11 19:12:11] [ INFO ] [UsuarioService:54] Usuario con el id especificado existe
+[2021-11-11 19:12:45] [ INFO ] [UsuarioService:65] Usuario Usuario [id=13, idRol=null, email=admin@tienda.es, clave=1234, nombre=Admin, apellido1=fulanito,, apellido2=null, direccion=, provincia=, localidad=, telefono=, dni=] editado correctamente
+[2021-11-11 19:12:57] [ INFO ] [UsuarioService:54] Usuario con el id especificado existe
+[2021-11-11 19:13:02] [ INFO ] [UsuarioService:65] Usuario Usuario [id=13, idRol=null, email=admin@tienda.es, clave=1234, nombre=Admin 2, apellido1=,, apellido2=null, direccion=, provincia=, localidad=, telefono=, dni=] editado correctamente
+[2021-11-11 19:13:36] [ INFO ] [UsuarioService:26] Usuario con el email especificado existe
+[2021-11-11 19:13:39] [ INFO ] [UsuarioService:54] Usuario con el id especificado existe
+[2021-11-11 19:13:42] [ INFO ] [UsuarioService:65] Usuario Usuario [id=13, idRol=null, email=admin@tienda.es, clave=1234, nombre=Admin 23, apellido1=,, apellido2=null, direccion=, provincia=, localidad=, telefono=, dni=] editado correctamente
+[2021-11-11 19:14:20] [ INFO ] [UsuarioService:37] Usuario Usuario [id=14, idRol=null, email=admin@tienda.es, clave=1234, nombre=null, apellido1=null, apellido2=null, direccion=null, provincia=null, localidad=null, telefono=null, dni=null] se ha registrado correctamente
+[2021-11-11 19:14:29] [ INFO ] [UsuarioService:54] Usuario con el id especificado existe
+[2021-11-11 19:14:34] [ INFO ] [UsuarioService:65] Usuario Usuario [id=14, idRol=null, email=admin@tienda.es, clave=1234, nombre=, apellido1=admin,, apellido2=null, direccion=, provincia=, localidad=, telefono=, dni=] editado correctamente
+[2021-11-11 19:18:41] [ INFO ] [UsuarioService:54] Usuario con el id especificado existe
+[2021-11-11 19:18:51] [ INFO ] [UsuarioService:65] Usuario Usuario [id=14, idRol=null, email=admin@tienda.es, clave=1234, nombre=Admin, apellido1=Admin,, apellido2=null, direccion=, provincia=, localidad=, telefono=, dni=] editado correctamente
+[2021-11-11 19:21:27] [ INFO ] [UsuarioService:54] Usuario con el id especificado existe
+[2021-11-11 19:21:31] [ INFO ] [UsuarioService:54] Usuario con el id especificado existe
+[2021-11-11 19:21:35] [ INFO ] [UsuarioService:54] Usuario con el id especificado existe
+[2021-11-11 19:21:37] [ INFO ] [UsuarioService:65] Usuario Usuario [id=14, idRol=null, email=admin@tienda.es, clave=1234, nombre=Admin2, apellido1=,, apellido2=null, direccion=, provincia=, localidad=, telefono=, dni=] editado correctamente
+[2021-11-11 19:23:27] [ INFO ] [UsuarioService:26] Usuario con el email especificado existe
+[2021-11-11 19:23:30] [ INFO ] [UsuarioService:54] Usuario con el id especificado existe
+[2021-11-11 19:23:33] [ INFO ] [UsuarioService:65] Usuario Usuario [id=14, idRol=null, email=admin@tienda.es, clave=1234, nombre=Admin3, apellido1=,, apellido2=null, direccion=, provincia=, localidad=, telefono=, dni=] editado correctamente
+[2021-11-11 19:23:49] [ INFO ] [UsuarioService:54] Usuario con el id especificado existe
+[2021-11-11 19:27:26] [ INFO ] [UsuarioService:54] Usuario con el id especificado existe
+[2021-11-11 19:27:28] [ INFO ] [UsuarioService:65] Usuario Usuario [id=14, idRol=null, email=admin@tienda.es, clave=1234, nombre=Admin, apellido1=,, apellido2=null, direccion=, provincia=, localidad=, telefono=, dni=] editado correctamente
+[2021-11-11 19:28:11] [ INFO ] [UsuarioService:54] Usuario con el id especificado existe

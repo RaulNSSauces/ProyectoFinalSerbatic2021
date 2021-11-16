@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head th:replace="index::head">
+	</head >
+	<body>
+		 <nav th:replace="index::cabecera"></nav >
+		 <main>
+		 	<header th:replace="index::header"></header >
+    			<section class="py-5">
+            		<div class="container px-4 px-lg-5 mt-5">
+                		<div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+                    		<div th:each="cliente : ${listaClientes}" class="col mb-5">
+                        		<div th:if="${cliente.idRol} eq '3'" class="card h-100">
+                            		<!-- Product details-->
+                            		<div class="card-body p-4">
+                                		<div class="text-center">
+                                    		<!-- Product name-->
+                                    		<p><b>Email</b></p>
+                                    		<div th:text="${cliente.email}"></div >
+                                    		<br>
+                                    		<p><b>Nombre</b></p>
+                                    		<div th:text="${cliente.nombre}"></div >
+                                		</div >
+                            		</div>
+                            		<!-- Product actions-->
+                            		<div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                		<div class="text-center"><a class="btn btn-outline-dark mt-auto" th:href="@{/usuario/eliminarCliente/}+${cliente.id}" onclick="if(!(confirm('¿Estás seguro de que quieres eliminar este producto?'))) return false">Eliminar</a></div>
+                                	<br>
+                                		<div class="text-center"><a class="btn btn-outline-dark mt-auto" th:href="@{/usuario/formEditarCliente/}+${cliente.id}">Actualizar</a></div>
+                            		</div>
+                        		</div >
+                    		</div  >
+                		</div>
+           		 	</div>
+            		<div class="text-center"><a class="btn btn-outline-dark mt-auto" th:href="@{/usuario/formAltaCliente}">Añadir cliente</a></div>
+        		</section>
+		 </main >
+		 <footer th:replace="index::pie"></footer >
+	</body>
+</html>
